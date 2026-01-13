@@ -1,36 +1,86 @@
 <!DOCTYPE html><html lang="nl"><head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://domain.com/#website",
+      "url": "https://domain.com",
+      "name": "domain"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://domain.com/#org",
+      "name": "domain",
+      "url": "https://domain.com"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://domain.com/cookie_policy.html",
+      "url": "https://domain.com/cookie_policy.html",
+      "name": "domain",
+      "isPartOf": {
+        "@id": "https://domain.com/#website"
+      },
+      "inLanguage": "nl"
+    }
+  ]
+}
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cookie Policy van Ontdek Nederland - Leer hoe wij cookies gebruiken om uw ervaring te verbeteren en onze diensten te optimaliseren.">
+  <meta name="description" content="Cookie Policy van domain Nederland - Leer hoe wij cookies gebruiken om uw ervaring te verbeteren en onze diensten te optimaliseren.">
   <meta name="robots" content="index, follow">
-  <meta property="og:title" content="Cookie Policy - Ontdek Nederland">
-  <meta property="og:description" content="Ontdek hoe wij cookies gebruiken op onze website en hoe u uw cookie-instellingen kunt beheren.">
+  <meta property="og:title" content="Cookie Policy - domain Nederland">
+  <meta property="og:description" content="domain hoe wij cookies gebruiken op onze website en hoe u uw cookie-instellingen kunt beheren.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://domain.com/cookie_policy.html">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=1200&amp;h=630&amp;fit=crop">
+  <meta property="og:image" content="https://images.unsplash.com/photo-+31 40 8009555e3e96b5017?w=1200&amp;h=630&amp;fit=crop">
   <link rel="canonical" href="https://domain.com/cookie_policy.html">
-  <title>Cookie Policy - Ontdek Nederland</title>
+  <title>Cookie Policy - domain Nederland</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- </head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="./header-footer.css">
+</head>
  <body>
-  <header class="l-header">
-   <nav class="navbar" navbar-expand-md="" sticky-top="" bg-white="" border-bottom\_="" aria-label="Hoofdnavigatie">
-    <div class="container-fluid">
-     <a class="navbar-brand" c-logo\_="" href="/" aria-label="ReisMeester" homepage\_=""> <img src="img/116227.jpg" alt="ReisMeester" logo\_="" width="150" height="40" class="c-logo__img"> </a>
-     <button class="navbar-toggler" c-nav__toggle\_="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigatiemenu" openen\_=""><span class="navbar-toggler-icon"></span></button>
-     <div class="collapse" navbar-collapse\_="" id="navbarNav">
-      <ul class="navbar-nav" ms-auto\_="">
-       <li class="nav-item"><a class="nav-link" href="/" aria-current="page">Home</a></li>
-       <li class="nav-item"><a class="nav-link" href="services.html">Diensten</a></li>
-       <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-       <li class="nav-item"><a class="nav-link" href="about.html">Over Ons</a></li>
-      </ul>
-     </div>
+  <header class="dr-header" aria-label="Primary">
+  <div class="dr-header-shell">
+    <div class="dr-header-inner">
+      <div class="dr-header-brand">
+        <div class="dr-logo-wrap" aria-label="domain logo">
+          <img class="dr-logo-img" src="img/116227.jpg" alt="domain" width="150" height="40" loading="lazy" />
+        </div>
+        <span class="dr-brand-text">domain</span>
+      </div>
+      <nav class="dr-nav" aria-label="Main navigation">
+        <ul class="dr-nav-list">
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./index.html">Home</a></li>
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./about.html">About</a></li>
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./services.html">Services</a></li>
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./team.html">Team</a></li>
+        </ul>
+      </nav>
+      <button class="dr-nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="dr-header-nav-menu">
+        <span class="dr-nav-toggle-bar"></span>
+        <span class="dr-nav-toggle-bar"></span>
+      </button>
     </div>
-   </nav>
-  </header>
+    <div class="dr-nav-menu-panel" id="dr-header-nav-menu" aria-hidden="true">
+      <nav class="dr-nav-mobile" aria-label="Main navigation mobile">
+        <ul class="dr-nav-mobile-list">
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./index.html">Home</a></li>
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./about.html">About</a></li>
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./services.html">Services</a></li>
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./team.html">Team</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
   <main role="main">
    <nav aria-label="breadcrumb" class="py-3">
     <div class="container">
@@ -46,7 +96,7 @@
       <div class="col-12 col-lg-10 col-xl-9">
        <article class="c-legal-content" data-aos="fade-up">
         <h1 class="c-legal-content__title mb-4">Cookie Policy</h1>
-        <p class="c-legal-content__updated text-muted mb-4"><strong>Laatst bijgewerkt:</strong> <time datetime="2025-01-10">10 januari 2025</time></p>
+        <p class="c-legal-content__updated text-muted mb-4"><strong>Laatst bijgewerkt:</strong> <time datetime="+31 (0)40 5817680">10 januari 2025</time></p>
         <div class="c-legal-content__body">
          <section class="mb-5" data-aos="fade-up" data-aos-delay="100">
           <h2 class="c-legal-content__heading">1. Wat zijn cookies?</h2>
@@ -113,7 +163,7 @@
          </section>
          <section class="mb-5" data-aos="fade-up" data-aos-delay="250">
           <h2 class="c-legal-content__heading">4. Externe diensten en cookies van derden</h2>
-          <p class="c-legal-content__text">Onze website maakt gebruik van verschillende externe diensten die hun eigen cookies kunnen plaatsen. Deze partijen hebben hun eigen privacybeleid en cookiebeleid:</p>
+          <p class="c-legal-content__text">domain website maakt gebruik van verschillende externe diensten die hun eigen cookies kunnen plaatsen. Deze partijen hebben hun eigen privacybeleid en cookiebeleid:</p>
           <div class="c-external-service mb-3">
            <h4 class="c-external-service__name">Google Analytics</h4>
            <p class="c-legal-content__text">Gebruikt voor het analyseren van websiteverkeer en gebruikersgedrag. Google kan deze gegevens aan derden verschaffen indien Google hiertoe wettelijk wordt verplicht.</p>
@@ -154,7 +204,7 @@
            <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" class="c-link">Google Chrome - Cookie-instellingen</a></li>
            <li><a href="https://support.mozilla.org/nl/kb/cookies-verwijderen-gegevens-wissen-websites-opgeslagen" target="_blank" rel="noopener noreferrer" class="c-link">Mozilla Firefox - Cookie-instellingen</a></li>
            <li><a href="https://support.apple.com/nl-nl/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer" class="c-link">Safari - Cookie-instellingen</a></li>
-           <li><a href="https://support.microsoft.com/nl-nl/microsoft-edge/cookies-verwijderen-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer" class="c-link">Microsoft Edge - Cookie-instellingen</a></li>
+           <li><a href="https://support.microsoft.com/nl-nl/microsoft-edge/cookies-verwijderen-in-microsoft-edge-040-975-5144ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener noreferrer" class="c-link">Microsoft Edge - Cookie-instellingen</a></li>
           </ul>
           <h3 class="c-cookie-type__title mt-4">Opt-out voor specifieke diensten</h3>
           <p class="c-legal-content__text">Voor sommige externe diensten kunt u zich afmelden voor tracking:</p>
@@ -175,7 +225,7 @@
          </section>
          <section class="mb-5" data-aos="fade-up" data-aos-delay="450">
           <h2 class="c-legal-content__heading">8. Naleving van GDPR en ePrivacy Directive</h2>
-          <p class="c-legal-content__text">Ons cookiebeleid is in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG/GDPR) en de ePrivacy Directive. Wij respecteren uw privacy en zorgen ervoor dat:</p>
+          <p class="c-legal-content__text">Ons cookiebeleid is in overeenstemming met de domain Verordening Gegevensbescherming (AVG/GDPR) en de ePrivacy Directive. Wij respecteren uw privacy en zorgen ervoor dat:</p>
           <ul class="c-legal-content__list">
            <li>U duidelijke informatie krijgt over het gebruik van cookies voordat deze worden geplaatst</li>
            <li>Wij alleen noodzakelijke cookies plaatsen zonder uw expliciete toestemming</li>
@@ -194,17 +244,9 @@
          <section class="mb-5" data-aos="fade-up" data-aos-delay="550">
           <h2 class="c-legal-content__heading">10. Contact</h2>
           <p class="c-legal-content__text">Als u vragen heeft over dit Cookie Policy of over hoe wij cookies gebruiken, neem dan contact met ons op:</p>
-          <address class="c-contact-info">
-           <p class="c-legal-content__text"><strong>Ontdek Nederland</strong></p>
-           <p class="c-legal-content__text">Herengracht 487
-            <br>
-            1017 BT Amsterdam
-            <br>
-            Nederland</p>
-           <p class="c-legal-content__text"><strong>E-mail:</strong> <a href="mailto:info@domain.com" class="c-link">info@domain.com</a>
-            <br>
-            <strong>Telefoon:</strong> <a href="tel:+31208765432" class="c-link">+31 20 876 5432</a></p>
-          </address>
+          <address class="c-contact-info">World Trade Center Amsterdam<br>
+Strawinskylaan 77, Floor 2, Office 412<br>
+1077 XX Amsterdam</address>
           <p class="c-legal-content__text">Wij streven ernaar om binnen 48 uur te reageren op uw vraag of verzoek.</p>
          </section>
          <section data-aos="fade-up" data-aos-delay="600">
@@ -212,8 +254,8 @@
           <p class="c-legal-content__text">Voor meer informatie over hoe wij met uw gegevens omgaan, raadpleeg de volgende documenten:</p>
           <ul class="c-legal-content__list">
            <li><a href="privacy.html" class="c-link">Privacybeleid</a></li>
-           <li><a href="terms_and_conditions.html" class="c-link">Algemene Voorwaarden</a></li>
-           <li><a href="terms_of_services.html" class="c-link">Servicevoorwaarden</a></li>
+           <li><a href="terms_and_conditions.html" class="c-link">domain Voorwaarden</a></li>
+           <li><a href="terms_of_services.html" class="c-link">domain</a></li>
           </ul>
          </section>
         </div>
@@ -223,58 +265,50 @@
     </div>
    </section>
   </main>
-  <footer class="l-footer">
-   <div class="l-footer__main">
-    <div class="container">
-     <div class="row" g-4\_="">
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">ReisMeester</h3>
-       <p class="l-footer__text">Uw betrouwbare partner voor onvergetelijke reiservaringen door heel Nederland. Ontdek, beleef en geniet met onze deskundige gidsen.</p>
+  <footer class="dr-footer" aria-label="Footer">
+  <div class="dr-footer-shell">
+    <div class="dr-footer-main">
+      <div class="dr-footer-brand-block">
+        <div class="dr-footer-brand-name">domain</div>
+        <p class="dr-footer-tagline">Modern solutions delivered through domain.com with a focus on reliability, security, and user experience.</p>
       </div>
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">Snelle Links</h3>
-       <ul class="l-footer__links">
-        <li><a href="/" class="l-footer__link">Home</a></li>
-        <li><a href="services.html" class="l-footer__link">Diensten</a></li>
-        <li><a href="team.html" class="l-footer__link">Team</a></li>
-        <li><a href="about.html" class="l-footer__link">Over Ons</a></li>
-       </ul>
+      <div class="dr-footer-nav-block" aria-label="Footer navigation">
+        <h2 class="dr-footer-heading">Navigate</h2>
+        <ul class="dr-footer-nav-list">
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./index.html">Home</a></li>
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./about.html">About</a></li>
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./services.html">Services</a></li>
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./team.html">Team</a></li>
+        </ul>
       </div>
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">Juridisch</h3>
-       <ul class="l-footer__links">
-        <li><a href="privacy.html" class="l-footer__link">Privacybeleid</a></li>
-        <li><a href="terms_and_conditions.html" class="l-footer__link">Algemene Voorwaarden</a></li>
-        <li><a href="terms_of_services.html" class="l-footer__link">Servicevoorwaarden</a></li>
-        <li><a href="cookie_policy.html" class="l-footer__link">Cookiebeleid</a></li>
-       </ul>
+      <div class="dr-footer-legal-block" aria-label="Legal links">
+        <h2 class="dr-footer-heading">Legal</h2>
+        <ul class="dr-footer-legal-list">
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./cookie_policy.html">Cookie Policy</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./privacy.html">Privacy</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./services.html">Services</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_and_conditions.html">Terms And Conditions</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_of_services.html">Terms Of Services</a></li>
+        </ul>
       </div>
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">Contact</h3>
-       <address class="l-footer__address">
-        <p class="l-footer__text">Herengracht 487
-         <br>
-         1017 BT Amsterdam
-         <br>
-         Nederland</p>
-        <p class="l-footer__text"><strong>Telefoon:</strong> <a href="tel:+31207894521" class="l-footer__link">+31 20 789 4521</a>
-         <br>
-         <strong>E-mail:</strong> <a href="mailto:info@domain.com" class="l-footer__link">info@domain.com</a></p>
-       </address>
-      </div>
-     </div>
     </div>
-   </div>
-   <div class="l-footer__bottom">
-    <div class="container">
-     <div class="row">
-      <div class="col-12" text-center\_="">
-       <p class="l-footer__copyright">© 2025 ReisMeester. Alle rechten voorbehouden.</p>
+    <div class="dr-footer-meta">
+      <p class="dr-footer-disclaimer">Disclaimer: The information and materials provided on domain.com are for general informational purposes only and do not constitute professional, legal, financial, or other regulated advice. While domain strives to keep content current and accurate, no guarantees are made regarding completeness, reliability, or suitability for any particular purpose. Any actions taken based on information from domain.com are strictly at your own risk. domain and its representatives are not liable for any loss or damage arising from the use of, or reliance on, the content or services made available through domain.com. Always consult a qualified professional for advice tailored to your specific situation.</p>
+      <div class="dr-footer-bottom-row">
+        <span class="dr-footer-copy">© <span class="dr-footer-copy-name">domain</span>. All rights reserved.</span>
       </div>
-     </div>
     </div>
-   </div>
-  </footer>
+  </div>
+</footer>
   <script src="script.js" defer=""></script>
  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+if (typeof AOS !== "undefined" && !window.__AOS_INITIALIZED__) {
+  AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
+  window.__AOS_INITIALIZED__ = true;
+}
+</script>
+<script src="./header-footer.js"></script>
+<script src="./consent.js"></script>
 </body></html>

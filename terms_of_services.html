@@ -1,41 +1,91 @@
 <!DOCTYPE html><html lang="nl"><head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://domain.com/#website",
+      "url": "https://domain.com",
+      "name": "domain"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://domain.com/#org",
+      "name": "domain",
+      "url": "https://domain.com"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://domain.com/terms_of_services.html",
+      "url": "https://domain.com/terms_of_services.html",
+      "name": "domain",
+      "isPartOf": {
+        "@id": "https://domain.com/#website"
+      },
+      "inLanguage": "nl"
+    }
+  ]
+}
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Servicevoorwaarden - ReisVenture NL | Toerisme Diensten</title>
+  <title>domain - ReisVenture NL | Toerisme Diensten</title>
   <meta name="description" content="Lees de servicevoorwaarden van ReisVenture NL. Begrijp uw rechten en verplichtingen bij het gebruik van onze toeristische diensten en platform.">
   <link rel="canonical" href="https://domain.com/terms_of_services.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Servicevoorwaarden - ReisVenture NL">
+  <meta property="og:title" content="domain - ReisVenture NL">
   <meta property="og:description" content="Lees de servicevoorwaarden van ReisVenture NL. Begrijp uw rechten en verplichtingen bij het gebruik van onze toeristische diensten.">
   <meta property="og:url" content="https://domain.com/terms_of_services.html">
   <meta property="og:site_name" content="ReisVenture NL">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- </head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="./header-footer.css">
+</head>
  <body>
-  <header class="l-header">
-   <nav class="navbar" navbar-expand-md="" sticky-top="" bg-white="" border-bottom\_="" aria-label="Hoofdnavigatie">
-    <div class="container-fluid">
-     <a class="navbar-brand" c-logo\_="" href="/" aria-label="ReisMeester" homepage\_=""> <img src="img/116227.jpg" alt="ReisMeester" logo\_="" width="150" height="40" class="c-logo__img"> </a>
-     <button class="navbar-toggler" c-nav__toggle\_="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigatiemenu" openen\_=""><span class="navbar-toggler-icon"></span></button>
-     <div class="collapse" navbar-collapse\_="" id="navbarNav">
-      <ul class="navbar-nav" ms-auto\_="">
-       <li class="nav-item"><a class="nav-link" href="/" aria-current="page">Home</a></li>
-       <li class="nav-item"><a class="nav-link" href="services.html">Diensten</a></li>
-       <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-       <li class="nav-item"><a class="nav-link" href="about.html">Over Ons</a></li>
-      </ul>
-     </div>
+  <header class="dr-header" aria-label="Primary">
+  <div class="dr-header-shell">
+    <div class="dr-header-inner">
+      <div class="dr-header-brand">
+        <div class="dr-logo-wrap" aria-label="domain logo">
+          <img class="dr-logo-img" src="img/116227.jpg" alt="domain" width="150" height="40" loading="lazy" />
+        </div>
+        <span class="dr-brand-text">domain</span>
+      </div>
+      <nav class="dr-nav" aria-label="Main navigation">
+        <ul class="dr-nav-list">
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./index.html">Home</a></li>
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./about.html">About</a></li>
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./services.html">Services</a></li>
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./team.html">Team</a></li>
+        </ul>
+      </nav>
+      <button class="dr-nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="dr-header-nav-menu">
+        <span class="dr-nav-toggle-bar"></span>
+        <span class="dr-nav-toggle-bar"></span>
+      </button>
     </div>
-   </nav>
-  </header>
+    <div class="dr-nav-menu-panel" id="dr-header-nav-menu" aria-hidden="true">
+      <nav class="dr-nav-mobile" aria-label="Main navigation mobile">
+        <ul class="dr-nav-mobile-list">
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./index.html">Home</a></li>
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./about.html">About</a></li>
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./services.html">Services</a></li>
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./team.html">Team</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
   <main>
    <nav aria-label="breadcrumb" class="py-3">
     <div class="container">
      <ol class="breadcrumb mb-0">
       <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Servicevoorwaarden</li>
+      <li class="breadcrumb-item active" aria-current="page">domain</li>
      </ol>
     </div>
    </nav>
@@ -45,13 +95,13 @@
       <div class="col-lg-10 col-xl-9">
        <article class="c-legal-content">
         <header class="mb-4 mb-md-5" data-aos="fade-up">
-         <h1 class="display-4 mb-3">Servicevoorwaarden</h1>
+         <h1 class="display-4 mb-3">domain</h1>
          <p class="text-muted">Laatst bijgewerkt: 10 januari 2025</p>
         </header>
         <div class="c-legal-content__body">
          <section class="mb-5" data-aos="fade-up" data-aos-delay="100">
-          <h2 class="h3 mb-3">1. Acceptatie van Servicevoorwaarden</h2>
-          <p>Door toegang te krijgen tot en gebruik te maken van de diensten van ReisVenture NL, stemt u ermee in gebonden te zijn aan deze Servicevoorwaarden. Als u niet akkoord gaat met deze voorwaarden, mag u onze diensten niet gebruiken.</p>
+          <h2 class="h3 mb-3">1. Acceptatie van domain</h2>
+          <p>Door toegang te krijgen tot en gebruik te maken van de diensten van ReisVenture NL, stemt u ermee in gebonden te zijn aan deze domain. Als u niet akkoord gaat met deze voorwaarden, mag u onze diensten niet gebruiken.</p>
           <p>Deze voorwaarden zijn van toepassing op alle bezoekers, gebruikers en anderen die toegang hebben tot of gebruik maken van onze toeristische diensten, inclusief onze website, mobiele applicaties en alle gerelateerde services.</p>
          </section>
          <section class="mb-5" data-aos="fade-up" data-aos-delay="150">
@@ -92,7 +142,7 @@
            <li>We accepteren creditcards, betaalpassen en andere elektronische betaalmethoden zoals aangegeven op onze website</li>
           </ul>
           <h3 class="h5 mb-3">4.3 Annulerings- en Restitutiebeleid</h3>
-          <p>Het annulerings- en restitutiebeleid kan variëren afhankelijk van de specifieke dienst of dienstverlener. Deze voorwaarden worden duidelijk vermeld tijdens het boekingsproces. Algemene richtlijnen zijn:</p>
+          <p>Het annulerings- en restitutiebeleid kan variëren afhankelijk van de specifieke dienst of dienstverlener. Deze voorwaarden worden duidelijk vermeld tijdens het boekingsproces. domain richtlijnen zijn:</p>
           <ul class="mb-3">
            <li>Annuleringen meer dan 14 dagen voor de geplande datum: volledige restitutie minus 5% administratiekosten</li>
            <li>Annuleringen 7-14 dagen van tevoren: 50% restitutie</li>
@@ -108,7 +158,7 @@
            <li>Alle toepasselijke wetten en regelgeving na te leven</li>
            <li>Geen inbreuk te maken op de rechten van anderen</li>
            <li>Geen valse, misleidende of frauduleuze informatie te verstrekken</li>
-           <li>Onze systemen of diensten niet te misbruiken of te verstoren</li>
+           <li>domain systemen of diensten niet te misbruiken of te verstoren</li>
            <li>Geen virussen, malware of andere schadelijke code te uploaden of te verspreiden</li>
            <li>Geen ongeautoriseerde toegang tot onze systemen of gebruikersaccounts te zoeken</li>
            <li>Geen spam, ongevraagde reclame of andere vormen van digitale overlast te verzenden</li>
@@ -126,7 +176,7 @@
           <ul class="mb-3">
            <li>ReisVenture NL fungeert als bemiddelaar en is niet aansprakelijk voor de kwaliteit, veiligheid of wettigheid van de diensten die door derden worden aangeboden</li>
            <li>Wij zijn niet aansprakelijk voor indirecte, incidentele, speciale, gevolgschade of punitieve schade</li>
-           <li>Onze totale aansprakelijkheid jegens u zal nooit het bedrag overschrijden dat u aan ons heeft betaald in de zes maanden voorafgaand aan de gebeurtenis die aanleiding geeft tot de claim</li>
+           <li>domain totale aansprakelijkheid jegens u zal nooit het bedrag overschrijden dat u aan ons heeft betaald in de zes maanden voorafgaand aan de gebeurtenis die aanleiding geeft tot de claim</li>
            <li>Wij garanderen niet dat onze diensten ononderbroken, tijdig, veilig of foutloos zullen zijn</li>
            <li>Wij zijn niet verantwoordelijk voor verlies of schade als gevolg van overmacht, natuurrampen, terrorisme, pandemieën of andere gebeurtenissen buiten onze controle</li>
           </ul>
@@ -136,7 +186,7 @@
           <h3 class="h5 mb-3">8.1 Schorsing door ReisVenture NL</h3>
           <p>We behouden ons het recht voor om uw account op te schorten of te beëindigen en uw toegang tot onze diensten te weigeren als:</p>
           <ul class="mb-3">
-           <li>U deze Servicevoorwaarden schendt</li>
+           <li>U deze domain schendt</li>
            <li>U frauduleus of illegaal gedrag vertoont</li>
            <li>Wij reden hebben om aan te nemen dat uw activiteiten schade kunnen toebrengen aan ReisVenture NL of andere gebruikers</li>
            <li>U herhaaldelijk klachten ontvangt van andere gebruikers of dienstverleners</li>
@@ -153,11 +203,11 @@
          <section class="mb-5" data-aos="fade-up" data-aos-delay="500">
           <h2 class="h3 mb-3">9. Privacy en Gegevensbescherming</h2>
           <p>Uw gebruik van onze diensten is ook onderworpen aan ons <a href="privacy.html" class="text-decoration-underline">Privacybeleid</a>, dat beschrijft hoe wij uw persoonlijke informatie verzamelen, gebruiken en beschermen.</p>
-          <p>Door onze diensten te gebruiken, stemt u ermee in dat wij uw gegevens verwerken zoals beschreven in ons Privacybeleid en in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG).</p>
+          <p>Door onze diensten te gebruiken, stemt u ermee in dat wij uw gegevens verwerken zoals beschreven in ons Privacybeleid en in overeenstemming met de domain Verordening Gegevensbescherming (AVG).</p>
          </section>
          <section class="mb-5" data-aos="fade-up" data-aos-delay="550">
-          <h2 class="h3 mb-3">10. Wijzigingen in de Servicevoorwaarden</h2>
-          <p>ReisVenture NL behoudt zich het recht voor om deze Servicevoorwaarden op elk moment te wijzigen of bij te werken. Wij zullen materiële wijzigingen meedelen via:</p>
+          <h2 class="h3 mb-3">10. Wijzigingen in de domain</h2>
+          <p>ReisVenture NL behoudt zich het recht voor om deze domain op elk moment te wijzigen of bij te werken. Wij zullen materiële wijzigingen meedelen via:</p>
           <ul class="mb-3">
            <li>Een kennisgeving op onze website</li>
            <li>Een e-mail naar het adres dat aan uw account is gekoppeld</li>
@@ -168,7 +218,7 @@
          <section class="mb-5" data-aos="fade-up" data-aos-delay="600">
           <h2 class="h3 mb-3">11. Toepasselijk Recht en Geschillenbeslechting</h2>
           <h3 class="h5 mb-3">11.1 Toepasselijk Recht</h3>
-          <p>Deze Servicevoorwaarden worden beheerst door en geïnterpreteerd in overeenstemming met de wetten van Nederland, zonder rekening te houden met de principes van wetsconflicten.</p>
+          <p>Deze domain worden beheerst door en geïnterpreteerd in overeenstemming met de wetten van Nederland, zonder rekening te houden met de principes van wetsconflicten.</p>
           <h3 class="h5 mb-3">11.2 Jurisdictie</h3>
           <p>Geschillen die voortvloeien uit of verband houden met deze voorwaarden of uw gebruik van onze diensten zullen uitsluitend worden voorgelegd aan de bevoegde rechtbanken in Amsterdam, Nederland.</p>
           <h3 class="h5 mb-3">11.3 Alternatieve Geschillenbeslechting</h3>
@@ -176,19 +226,19 @@
          </section>
          <section class="mb-5" data-aos="fade-up" data-aos-delay="650">
           <h2 class="h3 mb-3">12. Scheidbaarheid en Volledigheid</h2>
-          <p>Als een bepaling van deze Servicevoorwaarden ongeldig, onwettig of niet-afdwingbaar wordt bevonden, blijven de overige bepalingen volledig van kracht.</p>
-          <p>Deze Servicevoorwaarden, samen met ons Privacybeleid en eventuele aanvullende voorwaarden die van toepassing zijn op specifieke diensten, vormen de volledige overeenkomst tussen u en ReisVenture NL met betrekking tot uw gebruik van onze diensten.</p>
+          <p>Als een bepaling van deze domain ongeldig, onwettig of niet-afdwingbaar wordt bevonden, blijven de overige bepalingen volledig van kracht.</p>
+          <p>Deze domain, samen met ons Privacybeleid en eventuele aanvullende voorwaarden die van toepassing zijn op specifieke diensten, vormen de volledige overeenkomst tussen u en ReisVenture NL met betrekking tot uw gebruik van onze diensten.</p>
          </section>
          <section class="mb-5" data-aos="fade-up" data-aos-delay="700">
           <h2 class="h3 mb-3">13. Klachten en Klantenservice</h2>
-          <p>Wij waarderen uw feedback en nemen klachten serieus. Als u vragen heeft over deze Servicevoorwaarden of als u een klacht wilt indienen, neem dan contact met ons op:</p>
+          <p>Wij waarderen uw feedback en nemen klachten serieus. Als u vragen heeft over deze domain of als u een klacht wilt indienen, neem dan contact met ons op:</p>
           <div class="card mt-4 border-0 bg-light">
            <div class="card-body">
             <h3 class="h5 mb-3">Contact Informatie</h3>
             <p class="mb-2"><strong>Bedrijfsnaam:</strong> ReisVenture NL</p>
             <p class="mb-2"><strong>Adres:</strong> Herengracht 487, 1017 BT Amsterdam, Nederland</p>
-            <p class="mb-2"><strong>E-mail:</strong> <a href="mailto:info@domain.com">info@domain.com</a></p>
-            <p class="mb-2"><strong>Telefoon:</strong> <a href="tel:+31207946382">+31 20 794 6382</a></p>
+            <p class="mb-2"><strong>E-mail:</strong> <a href="mailto:manager@domain.com">manager@domain.com</a></p>
+            <p class="mb-2"><strong>Telefoon:</strong> <a href="tel:+31 (0)40 5817680">040-975-5144</a></p>
             <p class="mb-0"><strong>Klantenservice uren:</strong> Maandag t/m Vrijdag, 09:00 - 18:00 uur</p>
            </div>
           </div>
@@ -197,7 +247,7 @@
          <section data-aos="fade-up" data-aos-delay="750">
           <div class="alert alert-info" role="alert">
            <h3 class="h5 mb-2">Belangrijk:</h3>
-           <p class="mb-0">Door gebruik te maken van de diensten van ReisVenture NL, bevestigt u dat u deze Servicevoorwaarden heeft gelezen, begrepen en ermee akkoord gaat. Als u niet akkoord gaat met deze voorwaarden, dient u onze diensten niet te gebruiken.</p>
+           <p class="mb-0">Door gebruik te maken van de diensten van ReisVenture NL, bevestigt u dat u deze domain heeft gelezen, begrepen en ermee akkoord gaat. Als u niet akkoord gaat met deze voorwaarden, dient u onze diensten niet te gebruiken.</p>
           </div>
          </section>
         </div>
@@ -207,58 +257,50 @@
     </div>
    </section>
   </main>
-  <footer class="l-footer">
-   <div class="l-footer__main">
-    <div class="container">
-     <div class="row" g-4\_="">
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">ReisMeester</h3>
-       <p class="l-footer__text">Uw betrouwbare partner voor onvergetelijke reiservaringen door heel Nederland. Ontdek, beleef en geniet met onze deskundige gidsen.</p>
+  <footer class="dr-footer" aria-label="Footer">
+  <div class="dr-footer-shell">
+    <div class="dr-footer-main">
+      <div class="dr-footer-brand-block">
+        <div class="dr-footer-brand-name">domain</div>
+        <p class="dr-footer-tagline">Modern solutions delivered through domain.com with a focus on reliability, security, and user experience.</p>
       </div>
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">Snelle Links</h3>
-       <ul class="l-footer__links">
-        <li><a href="/" class="l-footer__link">Home</a></li>
-        <li><a href="services.html" class="l-footer__link">Diensten</a></li>
-        <li><a href="team.html" class="l-footer__link">Team</a></li>
-        <li><a href="about.html" class="l-footer__link">Over Ons</a></li>
-       </ul>
+      <div class="dr-footer-nav-block" aria-label="Footer navigation">
+        <h2 class="dr-footer-heading">Navigate</h2>
+        <ul class="dr-footer-nav-list">
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./index.html">Home</a></li>
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./about.html">About</a></li>
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./services.html">Services</a></li>
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./team.html">Team</a></li>
+        </ul>
       </div>
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">Juridisch</h3>
-       <ul class="l-footer__links">
-        <li><a href="privacy.html" class="l-footer__link">Privacybeleid</a></li>
-        <li><a href="terms_and_conditions.html" class="l-footer__link">Algemene Voorwaarden</a></li>
-        <li><a href="terms_of_services.html" class="l-footer__link">Servicevoorwaarden</a></li>
-        <li><a href="cookie_policy.html" class="l-footer__link">Cookiebeleid</a></li>
-       </ul>
+      <div class="dr-footer-legal-block" aria-label="Legal links">
+        <h2 class="dr-footer-heading">Legal</h2>
+        <ul class="dr-footer-legal-list">
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./cookie_policy.html">Cookie Policy</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./privacy.html">Privacy</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./services.html">Services</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_and_conditions.html">Terms And Conditions</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_of_services.html">Terms Of Services</a></li>
+        </ul>
       </div>
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">Contact</h3>
-       <address class="l-footer__address">
-        <p class="l-footer__text">Herengracht 487
-         <br>
-         1017 BT Amsterdam
-         <br>
-         Nederland</p>
-        <p class="l-footer__text"><strong>Telefoon:</strong> <a href="tel:+31207894521" class="l-footer__link">+31 20 789 4521</a>
-         <br>
-         <strong>E-mail:</strong> <a href="mailto:info@domain.com" class="l-footer__link">info@domain.com</a></p>
-       </address>
-      </div>
-     </div>
     </div>
-   </div>
-   <div class="l-footer__bottom">
-    <div class="container">
-     <div class="row">
-      <div class="col-12" text-center\_="">
-       <p class="l-footer__copyright">© 2025 ReisMeester. Alle rechten voorbehouden.</p>
+    <div class="dr-footer-meta">
+      <p class="dr-footer-disclaimer">Disclaimer: The information and materials provided on domain.com are for general informational purposes only and do not constitute professional, legal, financial, or other regulated advice. While domain strives to keep content current and accurate, no guarantees are made regarding completeness, reliability, or suitability for any particular purpose. Any actions taken based on information from domain.com are strictly at your own risk. domain and its representatives are not liable for any loss or damage arising from the use of, or reliance on, the content or services made available through domain.com. Always consult a qualified professional for advice tailored to your specific situation.</p>
+      <div class="dr-footer-bottom-row">
+        <span class="dr-footer-copy">© <span class="dr-footer-copy-name">domain</span>. All rights reserved.</span>
       </div>
-     </div>
     </div>
-   </div>
-  </footer>
+  </div>
+</footer>
   <script src="script.js" defer=""></script>
  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+if (typeof AOS !== "undefined" && !window.__AOS_INITIALIZED__) {
+  AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
+  window.__AOS_INITIALIZED__ = true;
+}
+</script>
+<script src="./header-footer.js"></script>
+<script src="./consent.js"></script>
 </body></html>

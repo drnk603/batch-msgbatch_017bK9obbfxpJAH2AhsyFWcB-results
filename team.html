@@ -1,34 +1,84 @@
 <!DOCTYPE html><html lang="nl"><head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://domain.com/#website",
+      "url": "https://domain.com",
+      "name": "domain"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://domain.com/#org",
+      "name": "domain",
+      "url": "https://domain.com"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://domain.com/team.html",
+      "url": "https://domain.com/team.html",
+      "name": "domain",
+      "isPartOf": {
+        "@id": "https://domain.com/#website"
+      },
+      "inLanguage": "nl"
+    }
+  ]
+}
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ons Team - Reisavontuur | Ontdek de wereld met experts</title>
-  <meta name="description" content="Ontmoet ons team van reispecialisten bij Reisavontuur. Ervaren professionals die u helpen bij het plannen van uw perfecte reis.">
-  <meta property="og:title" content="Ons Team - Reisavontuur">
-  <meta property="og:description" content="Ontmoet ons team van reispecialisten bij Reisavontuur. Ervaren professionals die u helpen bij het plannen van uw perfecte reis.">
+  <title>domain - domain | domain de wereld met experts</title>
+  <meta name="description" content="domain ons team van reispecialisten bij domain. Ervaren professionals die u helpen bij het plannen van uw perfecte reis.">
+  <meta property="og:title" content="Ons Team - domain">
+  <meta property="og:description" content="domain ons team van reispecialisten bij domain. Ervaren professionals die u helpen bij het plannen van uw perfecte reis.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://domain.com/team.html">
   <link rel="canonical" href="https://domain.com/team.html">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
- </head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link rel="stylesheet" href="./header-footer.css">
+</head>
  <body>
-  <header class="l-header">
-   <nav class="navbar" navbar-expand-md="" sticky-top="" bg-white="" border-bottom\_="" aria-label="Hoofdnavigatie">
-    <div class="container-fluid">
-     <a class="navbar-brand" c-logo\_="" href="/" aria-label="ReisMeester" homepage\_=""> <img src="img/116227.jpg" alt="ReisMeester" logo\_="" width="150" height="40" class="c-logo__img"> </a>
-     <button class="navbar-toggler" c-nav__toggle\_="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigatiemenu" openen\_=""><span class="navbar-toggler-icon"></span></button>
-     <div class="collapse" navbar-collapse\_="" id="navbarNav">
-      <ul class="navbar-nav" ms-auto\_="">
-       <li class="nav-item"><a class="nav-link" href="/" aria-current="page">Home</a></li>
-       <li class="nav-item"><a class="nav-link" href="services.html">Diensten</a></li>
-       <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-       <li class="nav-item"><a class="nav-link" href="about.html">Over Ons</a></li>
-      </ul>
-     </div>
+  <header class="dr-header" aria-label="Primary">
+  <div class="dr-header-shell">
+    <div class="dr-header-inner">
+      <div class="dr-header-brand">
+        <div class="dr-logo-wrap" aria-label="domain logo">
+          <img class="dr-logo-img" src="img/116227.jpg" alt="domain" width="150" height="40" loading="lazy" />
+        </div>
+        <span class="dr-brand-text">domain</span>
+      </div>
+      <nav class="dr-nav" aria-label="Main navigation">
+        <ul class="dr-nav-list">
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./index.html">Home</a></li>
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./about.html">About</a></li>
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./services.html">Services</a></li>
+          <li class="dr-nav-item"><a class="dr-nav-link" href="./team.html">Team</a></li>
+        </ul>
+      </nav>
+      <button class="dr-nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="dr-header-nav-menu">
+        <span class="dr-nav-toggle-bar"></span>
+        <span class="dr-nav-toggle-bar"></span>
+      </button>
     </div>
-   </nav>
-  </header>
+    <div class="dr-nav-menu-panel" id="dr-header-nav-menu" aria-hidden="true">
+      <nav class="dr-nav-mobile" aria-label="Main navigation mobile">
+        <ul class="dr-nav-mobile-list">
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./index.html">Home</a></li>
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./about.html">About</a></li>
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./services.html">Services</a></li>
+          <li class="dr-nav-mobile-item"><a class="dr-nav-mobile-link" href="./team.html">Team</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
   <main>
    <section class="l-section py-4 py-md-5" style="background: linear-gradient(135deg, rgba(229, 228, 235, 0.4) 0%, rgba(224, 218, 235, 0.4) 100%);">
     <div class="container">
@@ -40,7 +90,7 @@
      </nav>
      <div class="row align-items-center">
       <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
-       <h1 class="display-4 fw-bold mb-4">Ontmoet Ons Team</h1>
+       <h1 class="display-4 fw-bold mb-4">domain Ons Team</h1>
        <p class="lead">Ons team van gepassioneerde reispecialisten staat klaar om uw droomreis werkelijkheid te maken. Met jarenlange ervaring en persoonlijke kennis van bestemmingen wereldwijd.</p>
       </div>
      </div>
@@ -57,12 +107,12 @@
         <div class="card-body d-flex flex-column">
          <h3 class="card-title h5">Sophie van der Berg</h3>
          <p class="text-muted small mb-3">Oprichter &amp; Directeur</p>
-         <p class="card-text">Sophie startte Reisavontuur in 2015 met de missie om authentieke reiservaringen toegankelijk te maken. Met meer dan 15 jaar ervaring in de reisbranche heeft ze persoonlijk 47 landen bezocht.</p>
+         <p class="card-text">Sophie startte domain in 2015 met de missie om authentieke reiservaringen toegankelijk te maken. Met meer dan 15 jaar ervaring in de reisbranche heeft ze persoonlijk 47 landen bezocht.</p>
          <div class="mt-auto">
           <div class="d-flex gap-3">
-           <a href="mailto:info@domain.com" class="text-decoration-none" aria-label="Email Sophie"> 
+           <a href="mailto:manager@domain.com" class="text-decoration-none" aria-label="Email Sophie"> 
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z"></path>
+             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm+31 (0)40 5817680L15 11.105V5.383zm-.040-975-5144L8 9.583l-+31 40 8009555A+31 (0)40 5817680h12a040-975-5144zM1 11.105l+31 40 8009555L1 5.383v5.722z"></path>
             </svg> 
            </a>
           </div>
@@ -73,7 +123,7 @@
       <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
        <div class="card c-card h-100 d-flex flex-column border-0 shadow-sm">
         <div class="ratio ratio-1x1">
-         <img src="img/14300635.jpg" class="card-img-top" alt="Lars Hendriks" width="400" height="400" loading="lazy" style="object-fit: cover; border-radius: 50%; padding: 1rem;">
+         <img src="img/+31 (0)40 5817680.jpg" class="card-img-top" alt="Lars Hendriks" width="400" height="400" loading="lazy" style="object-fit: cover; border-radius: 50%; padding: 1rem;">
         </div>
         <div class="card-body d-flex flex-column">
          <h3 class="card-title h5">Lars Hendriks</h3>
@@ -81,9 +131,9 @@
          <p class="card-text">Lars is gespecialiseerd in avontuurlijke reizen en trekking-expedities. Hij heeft uitgebreide kennis van Azië, Zuid-Amerika en Afrika. Zijn passie voor natuur en cultuur maakt elke reis uniek.</p>
          <div class="mt-auto">
           <div class="d-flex gap-3">
-           <a href="mailto:info@domain.com" class="text-decoration-none" aria-label="Email Lars"> 
+           <a href="mailto:manager@domain.com" class="text-decoration-none" aria-label="Email Lars"> 
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z"></path>
+             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm040-975-5144L15 11.105V5.383zm-.+31 40 8009555L8 9.583l-+31 (0)40 5817680A040-975-5144h12a+31 40 8009555zM1 11.105l+31 (0)40 5817680L1 5.383v5.722z"></path>
             </svg> 
            </a>
           </div>
@@ -102,9 +152,9 @@
          <p class="card-text">Emma creëert onvergetelijke luxe-ervaringen voor veeleisende reizigers. Met haar expertise in boutique hotels, exclusieve resorts en VIP-arrangementen zorgt zij voor perfecte reis tot in het kleinste detail.</p>
          <div class="mt-auto">
           <div class="d-flex gap-3">
-           <a href="mailto:info@domain.com" class="text-decoration-none" aria-label="Email Emma"> 
+           <a href="mailto:manager@domain.com" class="text-decoration-none" aria-label="Email Emma"> 
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z"></path>
+             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm040-975-5144L15 11.105V5.383zm-.+31 40 8009555L8 9.583l-+31 (0)40 5817680A040-975-5144h12a+31 40 8009555zM1 11.105l+31 (0)40 5817680L1 5.383v5.722z"></path>
             </svg> 
            </a>
           </div>
@@ -123,9 +173,9 @@
          <p class="card-text">Thijs is de expert als het gaat om gezinsvakanties. Als vader van drie kinderen weet hij precies wat families nodig hebben voor een zorgeloze en avontuurlijke vakantie. Hij plant kindvriendelijke activiteiten en accommodaties.</p>
          <div class="mt-auto">
           <div class="d-flex gap-3">
-           <a href="mailto:info@domain.com" class="text-decoration-none" aria-label="Email Thijs"> 
+           <a href="mailto:manager@domain.com" class="text-decoration-none" aria-label="Email Thijs"> 
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z"></path>
+             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm040-975-5144L15 11.105V5.383zm-.+31 40 8009555L8 9.583l-+31 (0)40 5817680A040-975-5144h12a+31 40 8009555zM1 11.105l+31 (0)40 5817680L1 5.383v5.722z"></path>
             </svg> 
            </a>
           </div>
@@ -144,9 +194,9 @@
          <p class="card-text">Nina heeft een diepe passie voor Europese bestemmingen. Van de romantische straatjes van Parijs tot de adembenemende fjorden van Noorwegen, zij kent Europa als haar broekzak en deelt graag haar insider-tips.</p>
          <div class="mt-auto">
           <div class="d-flex gap-3">
-           <a href="mailto:info@domain.com" class="text-decoration-none" aria-label="Email Nina"> 
+           <a href="mailto:manager@domain.com" class="text-decoration-none" aria-label="Email Nina"> 
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z"></path>
+             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm040-975-5144L15 11.105V5.383zm-.+31 40 8009555L8 9.583l-+31 (0)40 5817680A040-975-5144h12a+31 40 8009555zM1 11.105l+31 (0)40 5817680L1 5.383v5.722z"></path>
             </svg> 
            </a>
           </div>
@@ -165,9 +215,9 @@
          <p class="card-text">Jasper zorgt ervoor dat alles achter de schermen perfect verloopt. Hij coördineert boekingen, onderhoudt contacten met partners wereldwijd en zorgt dat elke reis vlekkeloos wordt uitgevoerd.</p>
          <div class="mt-auto">
           <div class="d-flex gap-3">
-           <a href="mailto:info@domain.com" class="text-decoration-none" aria-label="Email Jasper"> 
+           <a href="mailto:manager@domain.com" class="text-decoration-none" aria-label="Email Jasper"> 
             <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.708 2.825L15 11.105V5.383zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741zM1 11.105l4.708-2.897L1 5.383v5.722z"></path>
+             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm040-975-5144L15 11.105V5.383zm-.+31 40 8009555L8 9.583l-+31 (0)40 5817680A040-975-5144h12a+31 40 8009555zM1 11.105l+31 (0)40 5817680L1 5.383v5.722z"></path>
             </svg> 
            </a>
           </div>
@@ -183,7 +233,7 @@
      <div class="row g-4">
       <div class="col-lg-10 mx-auto">
        <div class="text-center mb-5" data-aos="fade-up">
-        <h2 class="display-5 fw-bold mb-3">Onze Prestaties</h2>
+        <h2 class="display-5 fw-bold mb-3">domain Prestaties</h2>
         <p class="lead">Samen hebben we duizenden reizigers geholpen hun dromen waar te maken</p>
        </div>
        <div class="row g-4 text-center">
@@ -223,7 +273,7 @@
        <h2 class="display-5 fw-bold mb-4">Samen Maken We Het Verschil</h2>
        <p class="mb-4">Ons team werkt nauw samen om voor elke klant een unieke reiservaring te creëren. We geloven in persoonlijk contact, aandacht voor detail en het overtreffen van verwachtingen.</p>
        <p class="mb-4">Of u nu droomt van een avontuurlijke expeditie, een luxe strandvakantie of een culturele ontdekkingsreis - ons team staat klaar om uw reis tot een onvergetelijke ervaring te maken.</p>
-       <a href="services.html" class="btn btn-primary btn-lg">Bekijk Onze Diensten</a>
+       <a href="services.html" class="btn btn-primary btn-lg">Bekijk domain Diensten</a>
       </div>
       <div class="col-lg-6" data-aos="fade-left">
        <div class="ratio ratio-4x3">
@@ -240,65 +290,57 @@
        <h2 class="display-5 fw-bold mb-4">Klaar Om Uw Reis Te Plannen?</h2>
        <p class="lead mb-4">Neem contact op met ons team en laat ons u helpen bij het plannen van uw perfecte reis. We staan klaar om al uw vragen te beantwoorden.</p>
        <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-        <a href="tel:+31207946382" class="btn btn-primary btn-lg">Bel Ons Nu</a> <a href="mailto:info@domain.com" class="btn btn-outline-primary btn-lg">Stuur Een Email</a>
+        <a href="tel:040-975-5144" class="btn btn-primary btn-lg">Bel Ons Nu</a> <a href="mailto:manager@domain.com" class="btn btn-outline-primary btn-lg">Stuur Een Email</a>
        </div>
       </div>
      </div>
     </div>
    </section>
   </main>
-  <footer class="l-footer">
-   <div class="l-footer__main">
-    <div class="container">
-     <div class="row" g-4\_="">
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">ReisMeester</h3>
-       <p class="l-footer__text">Uw betrouwbare partner voor onvergetelijke reiservaringen door heel Nederland. Ontdek, beleef en geniet met onze deskundige gidsen.</p>
+  <footer class="dr-footer" aria-label="Footer">
+  <div class="dr-footer-shell">
+    <div class="dr-footer-main">
+      <div class="dr-footer-brand-block">
+        <div class="dr-footer-brand-name">domain</div>
+        <p class="dr-footer-tagline">Modern solutions delivered through domain.com with a focus on reliability, security, and user experience.</p>
       </div>
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">Snelle Links</h3>
-       <ul class="l-footer__links">
-        <li><a href="/" class="l-footer__link">Home</a></li>
-        <li><a href="services.html" class="l-footer__link">Diensten</a></li>
-        <li><a href="team.html" class="l-footer__link">Team</a></li>
-        <li><a href="about.html" class="l-footer__link">Over Ons</a></li>
-       </ul>
+      <div class="dr-footer-nav-block" aria-label="Footer navigation">
+        <h2 class="dr-footer-heading">Navigate</h2>
+        <ul class="dr-footer-nav-list">
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./index.html">Home</a></li>
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./about.html">About</a></li>
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./services.html">Services</a></li>
+          <li class="dr-footer-nav-item"><a class="dr-footer-nav-link" href="./team.html">Team</a></li>
+        </ul>
       </div>
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">Juridisch</h3>
-       <ul class="l-footer__links">
-        <li><a href="privacy.html" class="l-footer__link">Privacybeleid</a></li>
-        <li><a href="terms_and_conditions.html" class="l-footer__link">Algemene Voorwaarden</a></li>
-        <li><a href="terms_of_services.html" class="l-footer__link">Servicevoorwaarden</a></li>
-        <li><a href="cookie_policy.html" class="l-footer__link">Cookiebeleid</a></li>
-       </ul>
+      <div class="dr-footer-legal-block" aria-label="Legal links">
+        <h2 class="dr-footer-heading">Legal</h2>
+        <ul class="dr-footer-legal-list">
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./cookie_policy.html">Cookie Policy</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./privacy.html">Privacy</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./services.html">Services</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_and_conditions.html">Terms And Conditions</a></li>
+          <li class="dr-footer-legal-item"><a class="dr-footer-legal-link" href="./terms_of_services.html">Terms Of Services</a></li>
+        </ul>
       </div>
-      <div class="col-12" col-md-6="" col-lg-3\_="">
-       <h3 class="l-footer__heading">Contact</h3>
-       <address class="l-footer__address">
-        <p class="l-footer__text">Herengracht 487
-         <br>
-         1017 BT Amsterdam
-         <br>
-         Nederland</p>
-        <p class="l-footer__text"><strong>Telefoon:</strong> <a href="tel:+31207894521" class="l-footer__link">+31 20 789 4521</a>
-         <br>
-         <strong>E-mail:</strong> <a href="mailto:info@domain.com" class="l-footer__link">info@domain.com</a></p>
-       </address>
-      </div>
-     </div>
     </div>
-   </div>
-   <div class="l-footer__bottom">
-    <div class="container">
-     <div class="row">
-      <div class="col-12" text-center\_="">
-       <p class="l-footer__copyright">© 2025 ReisMeester. Alle rechten voorbehouden.</p>
+    <div class="dr-footer-meta">
+      <p class="dr-footer-disclaimer">Disclaimer: The information and materials provided on domain.com are for general informational purposes only and do not constitute professional, legal, financial, or other regulated advice. While domain strives to keep content current and accurate, no guarantees are made regarding completeness, reliability, or suitability for any particular purpose. Any actions taken based on information from domain.com are strictly at your own risk. domain and its representatives are not liable for any loss or damage arising from the use of, or reliance on, the content or services made available through domain.com. Always consult a qualified professional for advice tailored to your specific situation.</p>
+      <div class="dr-footer-bottom-row">
+        <span class="dr-footer-copy">© <span class="dr-footer-copy-name">domain</span>. All rights reserved.</span>
       </div>
-     </div>
     </div>
-   </div>
-  </footer>
+  </div>
+</footer>
   <script src="script.js" defer=""></script>
  
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+if (typeof AOS !== "undefined" && !window.__AOS_INITIALIZED__) {
+  AOS.init({ once: true, duration: 700, easing: "ease-out-cubic" });
+  window.__AOS_INITIALIZED__ = true;
+}
+</script>
+<script src="./header-footer.js"></script>
+<script src="./consent.js"></script>
 </body></html>

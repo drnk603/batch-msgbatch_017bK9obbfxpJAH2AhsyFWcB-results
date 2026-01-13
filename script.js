@@ -271,8 +271,8 @@
           link.setAttribute('aria-current', 'page');
           link.classList.add('active');
         } else if (!isHome && linkPath !== '/') {
-          const normalizedCurrent = currentPath.replace(//index.html?$/, '/');
-          const normalizedLink = linkPath.replace(//index.html?$/, '/');
+          const normalizedCurrent = currentPath.replace(/\/index\.html?$/, '/');
+          const normalizedLink = linkPath.replace(/\/index\.html?$/, '/');
           if (normalizedCurrent === normalizedLink) {
             link.setAttribute('aria-current', 'page');
             link.classList.add('active');
